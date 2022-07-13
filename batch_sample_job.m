@@ -129,7 +129,7 @@ matlabbatch{9}.spm.stats.fmri_spec.timing.fmri_t = 16;
 matlabbatch{9}.spm.stats.fmri_spec.timing.fmri_t0 = 8;
 matlabbatch{9}.spm.stats.fmri_spec.sess.scans(1) = cfg_dep('Smooth: Smoothed Images', substruct('.','val', '{}',{8}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.name = 'event';
-%% depend on the Behavioral data
+%% depend on the Behavioral data 
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.onset = [0
                                                       4
                                                       14
