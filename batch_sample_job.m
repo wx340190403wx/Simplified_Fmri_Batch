@@ -129,7 +129,7 @@ matlabbatch{9}.spm.stats.fmri_spec.timing.fmri_t = 16;
 matlabbatch{9}.spm.stats.fmri_spec.timing.fmri_t0 = 8;
 matlabbatch{9}.spm.stats.fmri_spec.sess.scans(1) = cfg_dep('Smooth: Smoothed Images', substruct('.','val', '{}',{8}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.name = 'event';
-%%
+%% input onsettime
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.onset = [0
                                                       4
                                                       14
@@ -190,7 +190,7 @@ matlabbatch{9}.spm.stats.fmri_spec.sess.cond.onset = [0
                                                       462
                                                       468
                                                       472];
-%%
+%%onset time example
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.duration = 0;
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.tmod = 0;
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.pmod = struct('name', {}, 'param', {}, 'poly', {});
