@@ -130,67 +130,7 @@ matlabbatch{9}.spm.stats.fmri_spec.timing.fmri_t0 = 8;
 matlabbatch{9}.spm.stats.fmri_spec.sess.scans(1) = cfg_dep('Smooth: Smoothed Images', substruct('.','val', '{}',{8}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.name = 'event';
 %% input onsettime
-matlabbatch{9}.spm.stats.fmri_spec.sess.cond.onset = [0
-                                                      4
-                                                      14
-                                                      26
-                                                      34
-                                                      42
-                                                      54
-                                                      60
-                                                      70
-                                                      78
-                                                      90
-                                                      100
-                                                      110
-                                                      118
-                                                      122
-                                                      128
-                                                      134
-                                                      146
-                                                      152
-                                                      156
-                                                      160
-                                                      166
-                                                      178
-                                                      186
-                                                      192
-                                                      202
-                                                      208
-                                                      218
-                                                      226
-                                                      234
-                                                      244
-                                                      250
-                                                      260
-                                                      272
-                                                      276
-                                                      288
-                                                      292
-                                                      304
-                                                      308
-                                                      312
-                                                      320
-                                                      328
-                                                      334
-                                                      342
-                                                      346
-                                                      356
-                                                      360
-                                                      370
-                                                      380
-                                                      384
-                                                      396
-                                                      408
-                                                      420
-                                                      430
-                                                      436
-                                                      448
-                                                      454
-                                                      462
-                                                      468
-                                                      472];
-%%onset time example
+matlabbatch{9}.spm.stats.fmri_spec.sess.cond.onset = [];
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.duration = 0;
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.tmod = 0;
 matlabbatch{9}.spm.stats.fmri_spec.sess.cond.pmod = struct('name', {}, 'param', {}, 'poly', {});
